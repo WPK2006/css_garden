@@ -1,9 +1,54 @@
+
 html {
 	margin: 0;
 	padding: 0;
 }
-body{
-	font: 75% bold;
-	color: #00d5ff
-	background-image:fff url(file:///home/william/Documents/Css_Zen_garden/vinter.png) no-repeat bottom right:
-	}
+
+header {
+	padding-top: 200px;
+}
+
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 220px;                
+  background: url("vinter.png") center top no-repeat;
+  background-size: cover;      
+  pointer-events: none;        
+  z-index: 0;
+}
+
+@font-face {
+  font-family: 'MinFont';
+  src: url('../fonts/MinFont-Regular.woff2') format('woff2'),
+       url('../fonts/MinFont-Regular.woff') format('woff');
+  }
+
+body > * {
+  position: relative;
+  z-index: 1;
+  font-family: 'MinFont', sans-serif;
+}
+
+#zen-intro {
+  padding: 150px 40px;
+}
+
+#zen-intro h3 {
+  margin-bottom: 20px;
+}
+
+#zen-intro h3 {
+  margin-bottom: 30px;
+}
+
+#zen-intro p {
+  max-width: 500px;
+}
+
+
+
