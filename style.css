@@ -18,9 +18,17 @@ html, body {
 body {
   font-family: 'Segoe UI'
   line-height: 1.6;
+<<<<<<< HEAD
   background: linear-gradient(180deg, #0a0e1a 0%, #1a1f35 50%, #0b1020 100%);
   min-height: 200vh;
   overflow-x: hidden;
+=======
+  } 
+#css-zen-garden {
+  background: url('vinter.png') top center no-repeat;
+  background-size: cover;
+  padding-top: 300px;
+>>>>>>> dd112af6ea63203eeb8b1675ec1c82555be6566d
 }
 
 #css-zen-garden {
